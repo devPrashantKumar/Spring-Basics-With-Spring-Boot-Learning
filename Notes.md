@@ -1,0 +1,3 @@
+### Demo0 - Video 1
+- Simple Java Project
+- trying to explain the issue of tight coupling when we use plain java to create industry level projects. 
