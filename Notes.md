@@ -16,3 +16,7 @@
 ### Demo4 - Video 7
 - @ComponentScan and @Component to create bean automatically
 - Using Constructor based Injection
+
+### Demo13 - Video 16
+- replace .properties file with .yml file
+- merge multiple environment .properties files in single yaml file
