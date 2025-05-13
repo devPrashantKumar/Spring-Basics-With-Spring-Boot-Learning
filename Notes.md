@@ -21,6 +21,7 @@
 - replace .properties file with .yml file
 - merge multiple environment .properties files in single yaml file
 
-### Demo14 - Video 18
+### Demo14 - Video 17-18
+- AOP concepts learning
 - AOP practice project
 
