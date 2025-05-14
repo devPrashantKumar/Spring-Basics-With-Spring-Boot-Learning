@@ -10,14 +10,15 @@
         <module name="Demo1" />
         <module name="Demo12" />
         <module name="Demo13" />
-        <module name="Demo7" />
         <module name="Demo14" />
         <module name="Demo15" />
+        <module name="Demo10" />
+        <module name="Demo11" />
+        <module name="Demo8" />
+        <module name="Demo7" />
         <module name="Demo4" />
         <module name="Demo6" />
-        <module name="Demo10" />
         <module name="Demo5" />
-        <module name="Demo11" />
       </profile>
     </annotationProcessing>
   </component>
@@ -30,6 +31,7 @@
       <module name="Demo14" options="-parameters" />
       <module name="Demo15" options="-parameters" />
       <module name="Demo7" options="-parameters" />
+      <module name="Demo8" options="-parameters" />
     </option>
   </component>
 </project>

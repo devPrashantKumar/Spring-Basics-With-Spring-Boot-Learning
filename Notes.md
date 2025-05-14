@@ -26,6 +26,15 @@
 ### Demo7 - Video 10
 - Simple HelloWorld Spring Boot App using SpringInitializer
 
+### Demo8 - Video 11 (Important - Watch Video Again)
+- Running same simple spring Application (Demo5) using SpringBoot dependency instead of Spring-Context dependency.
+- @SpringBootApplication consist of @Configuration + @ComponentScan + @EnableAutoConfiguration
+- @Configuration + @ComponentScan are common with simple Spring Application
+- using @EnableAutoConfiguration, springBoot app do autoConfiguration for dependencies
+- we replace manual ApplicationContext creation with automatic ApplicationContext creation using SpringApplication.run(Demo.class, args) method
+- SpringApplication.run method create ApplicationContext and invoke run method of CommandLine runners beans Automatically.
+- Use Multiple CommandLine Runners
+
 ### Demo10 - Video 13
 - Logging in spring boot app
 - Logging with file rolling policy
