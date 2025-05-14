@@ -15,12 +15,14 @@
         <module name="Demo6" />
         <module name="Demo10" />
         <module name="Demo5" />
+        <module name="Demo11" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Demo10" options="-parameters" />
+      <module name="Demo11" options="-parameters" />
       <module name="Demo13" options="-parameters" />
       <module name="Demo14" options="-parameters" />
       <module name="Demo15" options="-parameters" />
