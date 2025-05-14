@@ -23,6 +23,9 @@
 ### Demo6 - Video 9
 - @Primary and @Qualifier Annotations
 
+### Demo7 - Video 10
+- Simple HelloWorld Spring Boot App using SpringInitializer
+
 ### Demo10 - Video 13
 - Logging in spring boot app
 - Logging with file rolling policy
