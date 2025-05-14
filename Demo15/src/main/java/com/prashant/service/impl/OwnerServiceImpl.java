@@ -8,10 +8,6 @@ import com.prashant.exception.OwnerNotFoundException;
 import com.prashant.repository.OwnerRepository;
 import com.prashant.service.OwnerService;
 
-/**
- * @author abhishekvermaa10
- *
- */
 @Service
 public class OwnerServiceImpl implements OwnerService {
 	@Autowired

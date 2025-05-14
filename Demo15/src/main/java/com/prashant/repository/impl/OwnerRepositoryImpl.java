@@ -6,10 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.prashant.exception.OwnerNotFoundException;
 import com.prashant.repository.OwnerRepository;
 
-/**
- * @author abhishekvermaa10
- *
- */
 @Repository
 public class OwnerRepositoryImpl implements OwnerRepository {
 	@Value("${owner.found}")

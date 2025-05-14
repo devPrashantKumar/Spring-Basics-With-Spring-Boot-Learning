@@ -8,7 +8,7 @@
 		<version>3.3.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.abhishekvermaa10</groupId>
+	<groupId>com.prashant</groupId>
 	<artifactId>Demo15</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Demo15</name>

@@ -11,10 +11,6 @@ import org.springframework.test.context.TestPropertySource;
 import com.prashant.exception.OwnerNotFoundException;
 import com.prashant.repository.impl.OwnerRepositoryImpl;
 
-/**
- * @author abhishekvermaa10
- *
- */
 @TestPropertySource("classpath:messages.properties")
 @SpringBootTest(classes = OwnerRepositoryImpl.class)
 class OwnerRepositoryImplTest {

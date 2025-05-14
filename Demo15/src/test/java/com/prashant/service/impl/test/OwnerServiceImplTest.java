@@ -17,10 +17,6 @@ import com.prashant.exception.OwnerNotFoundException;
 import com.prashant.repository.OwnerRepository;
 import com.prashant.service.impl.OwnerServiceImpl;
 
-/**
- * @author abhishekvermaa10
- *
- */
 @TestPropertySource("classpath:messages.properties")
 @SpringBootTest(classes = OwnerServiceImpl.class)
 class OwnerServiceImplTest {

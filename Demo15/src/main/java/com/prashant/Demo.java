@@ -12,10 +12,6 @@ import org.springframework.context.annotation.PropertySource;
 
 import com.prashant.service.OwnerService;
 
-/**
- * @author abhishekvermaa10
- *
- */
 @PropertySource("classpath:messages.properties")
 @SpringBootApplication
 public class Demo implements CommandLineRunner {
