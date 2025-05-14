@@ -17,6 +17,12 @@
 - @ComponentScan and @Component to create bean automatically
 - Using Constructor based Injection
 
+### Demo5 - Video 8  - pending
+- @Autowired and @Value Annotations
+
+### Demo6 - Video 9
+- @Primary and @Qualifier Annotations
+
 ### Demo13 - Video 16
 - replace .properties file with .yml file
 - merge multiple environment .properties files in single yaml file
