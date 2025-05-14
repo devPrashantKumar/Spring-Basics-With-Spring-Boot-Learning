@@ -1,6 +1,8 @@
 package com.prashant.repository.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Repository;
 
 import com.prashant.exception.OwnerNotFoundException;
@@ -10,8 +12,11 @@ import com.prashant.repository.OwnerRepository;
 public class OwnerRepositoryImpl implements OwnerRepository {
 	@Value("${owner.found}")
 	private String ownerFound;
-	@Value("${owner.not.found}")
-	private String ownerNotFound;
+//	@Value("${owner.not.found}")
+//	private String ownerNotFound;
+
+	@Autowired
+	private Environment environment;
 
 	public OwnerRepositoryImpl() {
 		System.out.println("OwnerRepositoryImpl bean created.");
@@ -22,7 +27,7 @@ public class OwnerRepositoryImpl implements OwnerRepository {
 		if (ownerId % 2 == 0) {
 			return String.format(ownerFound, ownerId);
 		} else {
-			throw new OwnerNotFoundException(String.format(ownerNotFound, ownerId));
+			throw new OwnerNotFoundException(String.format(environment.getProperty("owner.not.found"), ownerId));
 		}
 	}
 }

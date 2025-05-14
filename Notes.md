@@ -30,6 +30,8 @@
 ### Demo11 - Video 14
 - reading configurations from .properties file
 - configure multiple .properties file in spring boot app using @PropertySource Annotation
+- Fetching configuration by Autowiring Environment object
+- if same configuration available in multiple properties file application.properties file will get preference
 
 ### Demo13 - Video 16
 - replace .properties file with .yml file
