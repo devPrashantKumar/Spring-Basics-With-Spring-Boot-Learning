@@ -33,6 +33,11 @@
 - Fetching configuration by Autowiring Environment object
 - if same configuration available in multiple properties file application.properties file will get preference
 
+### Demo12 - Video 15
+- managing multiple .properties file for multiple environments/profiles
+- application.properties file for common properties and application-{env}.properties files for env/profile specific configurations
+- creating bean based on active profile using @Profile annotation
+
 ### Demo13 - Video 16
 - replace .properties file with .yml file
 - merge multiple environment .properties files in single yaml file

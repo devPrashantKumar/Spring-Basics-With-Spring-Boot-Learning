@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Demo0" />
         <module name="Demo1" />
+        <module name="Demo12" />
         <module name="Demo13" />
         <module name="Demo14" />
         <module name="Demo15" />
@@ -23,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Demo10" options="-parameters" />
       <module name="Demo11" options="-parameters" />
+      <module name="Demo12" options="-parameters" />
       <module name="Demo13" options="-parameters" />
       <module name="Demo14" options="-parameters" />
       <module name="Demo15" options="-parameters" />
