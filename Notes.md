@@ -17,7 +17,7 @@
 - @ComponentScan and @Component to create bean automatically
 - Using Constructor based Injection
 
-### Demo5 - Video 8  - pending
+### Demo5 - Video 8
 - @Autowired and @Value Annotations
 
 ### Demo6 - Video 9

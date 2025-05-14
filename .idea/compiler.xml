@@ -13,6 +13,7 @@
         <module name="Demo15" />
         <module name="Demo4" />
         <module name="Demo6" />
+        <module name="Demo5" />
       </profile>
     </annotationProcessing>
   </component>
