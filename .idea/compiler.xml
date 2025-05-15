@@ -16,6 +16,7 @@
         <module name="Demo11" />
         <module name="Demo8" />
         <module name="Demo7" />
+        <module name="Demo9" />
         <module name="Demo4" />
         <module name="Demo6" />
         <module name="Demo5" />
@@ -32,6 +33,7 @@
       <module name="Demo15" options="-parameters" />
       <module name="Demo7" options="-parameters" />
       <module name="Demo8" options="-parameters" />
+      <module name="Demo9" options="-parameters" />
     </option>
   </component>
 </project>
