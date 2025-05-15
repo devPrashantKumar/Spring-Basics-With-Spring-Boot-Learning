@@ -1,4 +1,4 @@
-### Demo0 - Video 02
+### Demo0 - Video 2
 - Simple Java Project
 - trying to explain the issue of tight coupling when we use plain java to create industry level projects.
 
@@ -58,6 +58,7 @@
 - AOP concepts learning
 - AOP practice project
 
-### Demo15 - Video 19
+### Demo15 - Video 19-20
 - Unit Testing in Spring Boot Project
+- devTools in SpringBoot App
 
